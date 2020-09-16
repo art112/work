@@ -1,0 +1,619 @@
+Applying AVIRM style settings...
+
+OBJ: TStyle	AVIRM	AVIRM style : 0 at: 0x55fa7ea50030
+
+Processing Multi_Run_Analyse_CaracterisationDuSetup_CompensatorDesignAndPatientSetup2.C...
+
+[1mRooFit v3.60 -- Developed by Wouter Verkerke and David Kirkby[0m 
+                Copyright (C) 2000-2013 NIKHEF, University of California & Stanford University
+                All rights reserved, please read http://roofit.sourceforge.net/license.txt
+
+New DPGAConstants
+                 (__) 
+                 (oo) 
+           /------\/ 
+          / |    ||   
+         *  /\---/\ 
+            ~~   ~~   
+...'Have you mooed today?'.. 
+
+New ICOConstants
+                 (__) 
+                 (oo) 
+           /------\/ 
+          / |    ||   
+         *  /\---/\ 
+            ~~   ~~   
+...'Have you mooed today?'.. 
+
+Partie 1 Cas de reference 
+
+ *** ***
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M/SaveHistory.txt
+/media/sf_PartageVbox8/work/AnalyseDose/Macro_ok
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M/SaveHistory.txt is open
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M/log.txt
+/media/sf_PartageVbox8/work/AnalyseDose/Macro_ok
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M/log.txt is open
+Gate 9.0
+Geant4 10.6.1
+PathInput /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+Total Event :: 341819
+N_Primaries 1e+07
+
+*** Name Case B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 98
+
+totalDose 0.83053 Integral 0.83053 Diff  1
+totalDose_squared 1.39967e-08 Integral 1.39967e-08 Diff  1
+Total_Dose_Squared_Analythique 0.000227193 Integral 1.39967e-08 Diff  16231.9
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8880a310 0x55fa88809e40 1e+07
+Dose Total 0.83053 [Gy] +- 0.00715842 (0.861909 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00715842
+FWHM[mm] 3.2 +- 0.00129093
+36.485 0.000587003 FWHM (80%) 1.05
+Max BraggPeak 36.125 80 % Max Integrale 0.83053
+Partie 2 Etude de l'épaisseur et de la Position 
+
+       *** Epaisseur Min_5
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa877e8630 0x55fa890d2070 1e+07
+Dose Total 0.874748 [Gy] +- 0.00734503 (0.839674 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map C_output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00734503
+FWHM[mm] 3.2 +- 0.00128983
+36.515 0.000614673 FWHM 1.05
+Max BraggPeak 36.095 80 % Max 36.795 Integrale 0.874748
+       *** Epaisseur Max_5
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa89993b00 0x55fa89993630 1e+07
+Dose Total 0.792734 [Gy] +- 0.00698512 (0.881142 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map D_output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00698512
+FWHM[mm] 3.17 +- 0.0012793
+36.445 0.000555089 FWHM 1.07
+Max BraggPeak 36.035 80 % Max 36.735 Integrale 0.792734
+       *** Epaisseur Min_4
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa862c1180 0x55fa879d9bf0 1e+07
+Dose Total 0.865108 [Gy] +- 0.00731193 (0.845204 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map E_output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00731193
+FWHM[mm] 3.2 +- 0.00128983
+36.495 0.000618575 FWHM 1.04
+Max BraggPeak 36.125 80 % Max 36.795 Integrale 0.865108
+       *** Epaisseur Max_4
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8a98a3d0 0x55fa8626fe90 1e+07
+Dose Total 0.79944 [Gy] +- 0.0070137 (0.877327 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map F_output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.0070137
+FWHM[mm] 3.23 +- 0.00130442
+36.455 0.000565356 FWHM 1.05
+Max BraggPeak 36.025 80 % Max 36.745 Integrale 0.79944
+       *** Epaisseur Min_3
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa87ff1f00 0x55fa86aa10b0 1e+07
+Dose Total 0.858983 [Gy] +- 0.00727678 (0.847139 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map G_output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00727678
+FWHM[mm] 3.22 +- 0.00129868
+36.505 0.000602194 FWHM 1.05
+Max BraggPeak 36.115 80 % Max 36.785 Integrale 0.858983
+       *** Epaisseur Max_3
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa89a5efa0 0x55fa89a5ead0 1e+07
+Dose Total 0.807027 [Gy] +- 0.00704796 (0.873324 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map H_output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00704796
+FWHM[mm] 3.17 +- 0.00127894
+36.455 0.000578514 FWHM 1.03
+Max BraggPeak 36.005 80 % Max 36.745 Integrale 0.807027
+       *** Epaisseur Min_2
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa87cbfd60 0x55fa888ec4e0 1e+07
+Dose Total 0.84898 [Gy] +- 0.0072327 (0.851929 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map I_output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.0072327
+FWHM[mm] 3.2 +- 0.00129056
+36.485 0.000603275 FWHM 1.06
+Max BraggPeak 36.115 80 % Max 36.775 Integrale 0.84898
+       *** Epaisseur Max_2
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa87f5bea0 0x55fa87f5b9d0 1e+07
+Dose Total 0.817838 [Gy] +- 0.00709389 (0.867395 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map J_output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00709389
+FWHM[mm] 3.16 +- 0.00127433
+36.475 0.000575699 FWHM 1.06
+Max BraggPeak 36.085 80 % Max 36.755 Integrale 0.817838
+       *** Epaisseur Min_1
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa88fdd9e0 0x55fa8a425110 1e+07
+Dose Total 0.838598 [Gy] +- 0.00719376 (0.857832 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map K_output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00719376
+FWHM[mm] 3.23 +- 0.00130367
+36.495 0.00058383 FWHM 1.09
+Max BraggPeak 36.095 80 % Max 36.765 Integrale 0.838598
+       *** Epaisseur Max_1
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa89bd0830 0x55fa89bd0360 1e+07
+Dose Total 0.821395 [Gy] +- 0.00711159 (0.865794 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map L_output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00711159
+FWHM[mm] 3.18 +- 0.00128281
+36.475 0.000576716 FWHM 1.07
+Max BraggPeak 36.105 80 % Max 36.755 Integrale 0.821395
+ Integrale 0.874748
+ Integrale 0.792734
+ Integrale 0.865108
+ Integrale 0.79944
+ Integrale 0.858983
+ Integrale 0.807027
+ Integrale 0.84898
+ Integrale 0.817838
+ Integrale 0.838598
+ Integrale 0.821395
+
+       *** Pos Min
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa87ab9170 0x55fa88825c60 1e+07
+Dose Total 0.829136 [Gy] +- 0.00714042 (0.861188 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map M_output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00714042
+FWHM[mm] 3.24 +- 0.00130792
+36.485 0.000585019 FWHM 1.05
+Max BraggPeak 36.095 80 % Max 36.765 Integrale 0.829136
+       *** Pos Max
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa87cfdc90 0x55fa87cfd7c0 1e+07
+Dose Total 0.830819 [Gy] +- 0.00715986 (0.861784 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map N_output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M 0.00715986
+FWHM[mm] 3.22 +- 0.00129942
+36.475 0.000584057 FWHM 1.04
+Max BraggPeak 36.065 80 % Max 36.765 Integrale 0.830819
+ Integrale 0.829136
+ Integrale 0.830819
+
+ *** ***
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M/SaveHistory.txt
+/media/sf_PartageVbox8/work/AnalyseDose/Macro_ok
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M/SaveHistory.txt is open
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M/log.txt
+/media/sf_PartageVbox8/work/AnalyseDose/Macro_ok
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M/log.txt is open
+Gate 9.0
+Geant4 10.6.1
+PathInput /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+Total Event :: 342779
+N_Primaries 1e+07
+
+*** Name Case B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 98
+
+totalDose 0.832655 Integral 0.832655 Diff  1
+totalDose_squared 1.40242e-08 Integral 1.40242e-08 Diff  1
+Total_Dose_Squared_Analythique 0.000215037 Integral 1.40242e-08 Diff  15333.2
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa88971ac0 0x55fa889715f0 1e+07
+Dose Total 0.832655 [Gy] +- 0.00718885 (0.863365 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00718885
+FWHM[mm] 5.93 +- 0.00249489
+36.455 0.00046115 FWHM (80%) 1.89
+Max BraggPeak 35.705 80 % Max Integrale 0.832655
+Partie 2 Etude de l'épaisseur et de la Position 
+
+       *** Epaisseur Min_5
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa878f0400 0x55fa878efe50 1e+07
+Dose Total 0.876084 [Gy] +- 0.00737996 (0.84238 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map C_output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00737996
+FWHM[mm] 5.81 +- 0.00243596
+36.495 0.000483551 FWHM 1.88
+Max BraggPeak 35.735 80 % Max 37.005 Integrale 0.876084
+       *** Epaisseur Max_5
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa896855f0 0x55fa87b80bf0 1e+07
+Dose Total 0.792289 [Gy] +- 0.00701016 (0.884798 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map D_output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00701016
+FWHM[mm] 5.79 +- 0.00243104
+36.415 0.000444982 FWHM 1.89
+Max BraggPeak 35.585 80 % Max 36.945 Integrale 0.792289
+       *** Epaisseur Min_4
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8a473250 0x55fa8b0d4500 1e+07
+Dose Total 0.866915 [Gy] +- 0.00733463 (0.846061 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map E_output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00733463
+FWHM[mm] 5.84 +- 0.00244845
+36.485 0.000480274 FWHM 1.92
+Max BraggPeak 35.795 80 % Max 37.025 Integrale 0.866915
+       *** Epaisseur Max_4
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa893c7d50 0x55fa8a5878b0 1e+07
+Dose Total 0.798533 [Gy] +- 0.00704012 (0.881631 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map F_output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00704012
+FWHM[mm] 5.82 +- 0.00244354
+36.425 0.00044112 FWHM 1.92
+Max BraggPeak 35.695 80 % Max 36.965 Integrale 0.798533
+       *** Epaisseur Min_3
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa890feb10 0x55fa89104a90 1e+07
+Dose Total 0.857402 [Gy] +- 0.0072986 (0.851246 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map G_output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.0072986
+FWHM[mm] 5.81 +- 0.00243596
+36.475 0.000478321 FWHM 1.88
+Max BraggPeak 35.675 80 % Max 37.005 Integrale 0.857402
+       *** Epaisseur Max_3
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8ad30290 0x55fa8ad01b20 1e+07
+Dose Total 0.807897 [Gy] +- 0.00707031 (0.87515 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map H_output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00707031
+FWHM[mm] 5.89 +- 0.00247693
+36.445 0.000447791 FWHM 1.89
+Max BraggPeak 35.655 80 % Max 36.955 Integrale 0.807897
+       *** Epaisseur Min_2
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8a7fad80 0x55fa8a7fc6f0 1e+07
+Dose Total 0.847753 [Gy] +- 0.00724742 (0.854898 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map I_output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00724742
+FWHM[mm] 5.74 +- 0.00240418
+36.455 0.000477025 FWHM 1.83
+Max BraggPeak 35.705 80 % Max 36.995 Integrale 0.847753
+       *** Epaisseur Max_2
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa88b3cf40 0x55fa88b3ca70 1e+07
+Dose Total 0.817934 [Gy] +- 0.00712181 (0.870707 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map J_output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00712181
+FWHM[mm] 5.73 +- 0.0024017
+36.435 0.000456785 FWHM 1.83
+Max BraggPeak 35.745 80 % Max 36.965 Integrale 0.817934
+       *** Epaisseur Min_1
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa88ce4070 0x55fa88ce3ba0 1e+07
+Dose Total 0.837274 [Gy] +- 0.00721653 (0.861907 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map K_output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00721653
+FWHM[mm] 5.73 +- 0.00240098
+36.455 0.000466902 FWHM 1.85
+Max BraggPeak 35.615 80 % Max 36.975 Integrale 0.837274
+       *** Epaisseur Max_1
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8a755790 0x55fa8a756e60 1e+07
+Dose Total 0.82455 [Gy] +- 0.00715542 (0.867797 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map L_output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00715542
+FWHM[mm] 5.79 +- 0.00242885
+36.445 0.000456489 FWHM 1.89
+Max BraggPeak 35.575 80 % Max 36.975 Integrale 0.82455
+ Integrale 0.876084
+ Integrale 0.792289
+ Integrale 0.866915
+ Integrale 0.798533
+ Integrale 0.857402
+ Integrale 0.807897
+ Integrale 0.847753
+ Integrale 0.817934
+ Integrale 0.837274
+ Integrale 0.82455
+
+       *** Pos Min
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8ab27a50 0x55fa8ab274a0 1e+07
+Dose Total 0.83018 [Gy] +- 0.00717055 (0.863734 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map M_output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.00717055
+FWHM[mm] 5.75 +- 0.00241026
+36.455 0.000463423 FWHM 1.86
+Max BraggPeak 35.715 80 % Max 36.975 Integrale 0.83018
+       *** Pos Max
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fa8acba530 0x55fa8acba060 1e+07
+Dose Total 0.833795 [Gy] +- 0.007191 (0.862442 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map N_output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M 0.007191
+FWHM[mm] 5.78 +- 0.0024242
+36.455 0.000460178 FWHM 1.91
+Max BraggPeak 35.805 80 % Max 36.975 Integrale 0.833795
+ Integrale 0.83018
+ Integrale 0.833795
+
+ *** ***
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M/SaveHistory.txt
+/media/sf_PartageVbox8/work/AnalyseDose/Macro_ok
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M/SaveHistory.txt is open
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M/log.txt
+/media/sf_PartageVbox8/work/AnalyseDose/Macro_ok
+/home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M/log.txt is open
+Gate 9.0
+Geant4 10.6.1
+PathInput /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+Total Event :: 342839
+N_Primaries 1e+07
+
+*** Name Case B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 98
+
+totalDose 0.833474 Integral 0.833474 Diff  1
+totalDose_squared 1.40358e-08 Integral 1.40358e-08 Diff  1
+Total_Dose_Squared_Analythique 0.000208345 Integral 1.40358e-08 Diff  14843.8
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faa37e2790 0x55faa37e22c0 1e+07
+Dose Total 0.833474 [Gy] +- 0.00721116 (0.865193 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00721116
+FWHM[mm] 7.9 +- 0.00343808
+36.445 0.000411266 FWHM (80%) 2.52
+Max BraggPeak 35.615 80 % Max Integrale 0.833474
+Partie 2 Etude de l'épaisseur et de la Position 
+
+       *** Epaisseur Min_5
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faa48d8e90 0x55faa48d8950 1e+07
+Dose Total 0.873488 [Gy] +- 0.00738662 (0.845646 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map C_output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00738662
+FWHM[mm] 7.9 +- 0.00343161
+36.485 0.000430965 FWHM 2.53
+Max BraggPeak 35.455 80 % Max 37.205 Integrale 0.873488
+       *** Epaisseur Max_5
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faa597ce60 0x55faa59b20a0 1e+07
+Dose Total 0.793588 [Gy] +- 0.00703514 (0.886498 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map D_output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00703514
+FWHM[mm] 7.8 +- 0.00338955
+36.425 0.000388415 FWHM 2.55
+Max BraggPeak 35.335 80 % Max 37.125 Integrale 0.793588
+       *** Epaisseur Min_4
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faa6a5a090 0x55faa6a59bc0 1e+07
+Dose Total 0.866712 [Gy] +- 0.00735236 (0.848305 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map E_output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00735236
+FWHM[mm] 7.66 +- 0.00331484
+36.475 0.000424065 FWHM 2.49
+Max BraggPeak 35.275 80 % Max 37.165 Integrale 0.866712
+       *** Epaisseur Max_4
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faa7b6fb80 0x55faa7b36c10 1e+07
+Dose Total 0.801173 [Gy] +- 0.00706288 (0.881567 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map F_output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00706288
+FWHM[mm] 7.91 +- 0.00344316
+36.455 0.000393002 FWHM 2.61
+Max BraggPeak 35.345 80 % Max 37.145 Integrale 0.801173
+       *** Epaisseur Min_3
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faa8c24db0 0x55faa8c248e0 1e+07
+Dose Total 0.855823 [Gy] +- 0.00731029 (0.854183 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map G_output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00731029
+FWHM[mm] 7.71 +- 0.00334099
+36.455 0.000424815 FWHM 2.48
+Max BraggPeak 35.415 80 % Max 37.155 Integrale 0.855823
+       *** Epaisseur Max_3
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faa9d01630 0x55faa9d010f0 1e+07
+Dose Total 0.806833 [Gy] +- 0.00709413 (0.879257 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map H_output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00709413
+FWHM[mm] 7.78 +- 0.00337626
+36.405 0.000398184 FWHM 2.47
+Max BraggPeak 35.495 80 % Max 37.155 Integrale 0.806833
+       *** Epaisseur Min_2
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faaadc7370 0x55faaadc6de0 1e+07
+Dose Total 0.846254 [Gy] +- 0.00726642 (0.858657 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map I_output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00726642
+FWHM[mm] 7.75 +- 0.00335903
+36.445 0.00041775 FWHM 2.46
+Max BraggPeak 35.325 80 % Max 37.175 Integrale 0.846254
+       *** Epaisseur Max_2
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faabee5470 0x55faabee4ee0 1e+07
+Dose Total 0.817451 [Gy] +- 0.0071451 (0.874071 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map J_output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.0071451
+FWHM[mm] 7.86 +- 0.00341672
+36.435 0.000400182 FWHM 2.55
+Max BraggPeak 35.315 80 % Max 37.155 Integrale 0.817451
+       *** Epaisseur Min_1
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faacfbc760 0x55faacfbc220 1e+07
+Dose Total 0.840063 [Gy] +- 0.00724683 (0.862654 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map K_output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00724683
+FWHM[mm] 7.81 +- 0.00339142
+36.455 0.000417917 FWHM 2.49
+Max BraggPeak 35.415 80 % Max 37.155 Integrale 0.840063
+       *** Epaisseur Max_1
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faae09c110 0x55faae09bc40 1e+07
+Dose Total 0.824519 [Gy] +- 0.00717499 (0.870204 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map L_output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00717499
+FWHM[mm] 7.66 +- 0.00331691
+36.435 0.000406747 FWHM 2.5
+Max BraggPeak 35.315 80 % Max 37.145 Integrale 0.824519
+ Integrale 0.873488
+ Integrale 0.793588
+ Integrale 0.866712
+ Integrale 0.801173
+ Integrale 0.855823
+ Integrale 0.806833
+ Integrale 0.846254
+ Integrale 0.817451
+ Integrale 0.840063
+ Integrale 0.824519
+
+       *** Pos Min
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55faaf190560 0x55faaf190090 1e+07
+Dose Total 0.831272 [Gy] +- 0.00719809 (0.865913 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map M_output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00719809
+FWHM[mm] 7.92 +- 0.00344716
+36.445 0.000410466 FWHM 2.52
+Max BraggPeak 35.525 80 % Max 37.155 Integrale 0.831272
+       *** Pos Max
+Path Input /home/gate/nantes_sps/abongran/All_Results/z_Projet_Arronax_Compensator_design/9.0/output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M
+N_Real_Event :: 0
+
+*** BEGIN IncertitudeSurLaDoseTotale 0x55fab026bdf0 0x55fab026b920 1e+07
+Dose Total 0.834877 [Gy] +- 0.00722166 (0.864998 %)
+*** END IncertitudeSurLaDoseTotale2 ***
+
+Incertitude Dose map N_output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M 0.00722166
+FWHM[mm] 7.9 +- 0.00343592
+36.445 0.000410418 FWHM 2.46
+Max BraggPeak 35.505 80 % Max 37.165 Integrale 0.834877
+ Integrale 0.831272
+ Integrale 0.834877
+
+Setup #0
+Category B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude C_output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude D_output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude E_output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude F_output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude G_output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude H_output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude I_output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude J_output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude K_output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude L_output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude M_output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude N_output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0_10M Incertitude
+FWHM[mm] 3.2 0.00129093 3.2 0.00128983 3.17 0.0012793 3.2 0.00128983 3.23 0.00130442 3.22 0.00129868 3.17 0.00127894 3.2 0.00129056 3.16 0.00127433 3.23 0.00130367 3.18 0.00128281 3.24 0.00130792 3.22 0.00129942
+Integral-Dose[Gy] 0.83053 0.00715842 0.874748 0.00734503 0.792734 0.00698512 0.865108 0.00731193 0.79944 0.0070137 0.858983 0.00727678 0.807027 0.00704796 0.84898 0.0072327 0.817838 0.00709389 0.838597 0.00719376 0.821395 0.00711159 0.829136 0.00714042 0.830819 0.00715986
+Z_PositionDuPic-80%[mm] 36.485 0.01 36.515 0.01 36.445 0.01 36.495 0.01 36.455 0.01 36.505 0.01 36.455 0.01 36.485 0.01 36.475 0.01 36.495 0.01 36.475 0.01 36.485 0.01 36.475 0.01
+Z_PositionDuPic-Max[mm] 36.125 0.01 36.095 0.01 36.035 0.01 36.125 0.01 36.025 0.01 36.115 0.01 36.005 0.01 36.115 0.01 36.085 0.01 36.095 0.01 36.105 0.01 36.095 0.01 36.065 0.01
+
+Setup #1
+Category B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude C_output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude D_output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude E_output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude F_output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude G_output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude H_output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude I_output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude J_output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude K_output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude L_output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude M_output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude N_output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_0.68_10M Incertitude
+FWHM[mm] 5.93 0.00249489 5.81 0.00243596 5.79 0.00243104 5.84 0.00244845 5.82 0.00244354 5.81 0.00243596 5.89 0.00247693 5.74 0.00240418 5.73 0.0024017 5.73 0.00240098 5.79 0.00242885 5.75 0.00241026 5.78 0.0024242
+Integral-Dose[Gy] 0.832655 0.00718885 0.876084 0.00737996 0.792289 0.00701016 0.866915 0.00733463 0.798533 0.00704012 0.857402 0.0072986 0.807897 0.00707031 0.847753 0.00724742 0.817934 0.00712181 0.837274 0.00721653 0.82455 0.00715542 0.83018 0.00717055 0.833795 0.007191
+Z_PositionDuPic-80%[mm] 36.455 0.01 36.495 0.01 36.415 0.01 36.485 0.01 36.425 0.01 36.475 0.01 36.445 0.01 36.455 0.01 36.435 0.01 36.455 0.01 36.445 0.01 36.455 0.01 36.455 0.01
+Z_PositionDuPic-Max[mm] 35.705 0.01 35.735 0.01 35.585 0.01 35.795 0.01 35.695 0.01 35.675 0.01 35.655 0.01 35.705 0.01 35.745 0.01 35.615 0.01 35.575 0.01 35.715 0.01 35.805 0.01
+
+Setup #2
+Category B_output_Ref_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude C_output_Epaisseur_Min_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude D_output_Epaisseur_Max_5_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude E_output_Epaisseur_Min_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude F_output_Epaisseur_Max_4_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude G_output_Epaisseur_Min_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude H_output_Epaisseur_Max_3_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude I_output_Epaisseur_Min_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude J_output_Epaisseur_Max_2_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude K_output_Epaisseur_Min_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude L_output_Epaisseur_Max_1_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude M_output_Pos_Min_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude N_output_Pos_Max_vACDv4.3_Ligne_ICO_v2T_BIC_G4_WATER_68MeV_1_10M Incertitude
+FWHM[mm] 7.9 0.00343808 7.9 0.00343161 7.8 0.00338955 7.66 0.00331484 7.91 0.00344316 7.71 0.00334099 7.78 0.00337626 7.75 0.00335903 7.86 0.00341672 7.81 0.00339142 7.66 0.00331691 7.92 0.00344716 7.9 0.00343592
+Integral-Dose[Gy] 0.833474 0.00721116 0.873488 0.00738662 0.793588 0.00703514 0.866712 0.00735236 0.801173 0.00706288 0.855823 0.00731029 0.806833 0.00709413 0.846254 0.00726642 0.817451 0.0071451 0.840063 0.00724683 0.824519 0.00717499 0.831272 0.00719809 0.834877 0.00722166
+Z_PositionDuPic-80%[mm] 36.445 0.01 36.485 0.01 36.425 0.01 36.475 0.01 36.455 0.01 36.455 0.01 36.405 0.01 36.445 0.01 36.435 0.01 36.455 0.01 36.435 0.01 36.445 0.01 36.445 0.01
+Z_PositionDuPic-Max[mm] 35.615 0.01 35.455 0.01 35.335 0.01 35.275 0.01 35.345 0.01 35.415 0.01 35.495 0.01 35.325 0.01 35.315 0.01 35.415 0.01 35.315 0.01 35.525 0.01 35.505 0.01
+-> 33.565 | 0.000364619 | 36.765 | 0.000372696
+-> 31.035 | 0.000286716 | 36.965 | 0.000292213
+-> 29.245 | 0.000256082 | 37.145 | 0.000257065
+-> 33.565 | 0.000364619 | 36.765 | 0.000372696
+-> 31.035 | 0.000286716 | 36.965 | 0.000292213
+-> 29.245 | 0.000256082 | 37.145 | 0.000257065
+**** Multi_Run_Analyse_CaracterisationDuSetup_CompensatorDesignAndPatientSetup.C , timer
+Real time 0:00:21, CP time 6.190
